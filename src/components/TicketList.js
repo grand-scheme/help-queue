@@ -33,5 +33,4 @@ function TicketList(){
   );
 }
 
-
 export default TicketList;

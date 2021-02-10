@@ -1,6 +1,6 @@
 import React from "react";
-import NewTicketForm from "./NewTicketForm";
-import TicketList from "./TicketList";
+import NewTicketForm from "./TicketControl-Children/NewTicketForm";
+import TicketList from "./TicketControl-Children/TicketList";
 
 class TicketControl extends React.Component {
 

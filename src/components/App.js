@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "./Header";
-import TicketControl from "./TicketControl";
+import Header from "./App-Children/Header";
+import TicketControl from "./App-Children/TicketControl";
 
 function App(){
   return (
-    <React.Fragment>
+    <>
       <Header />
       <TicketControl />
-    </React.Fragment>
+    </>
   );
 }
 

@@ -13,4 +13,12 @@ describe ("rootReducer", () => {
       formVisibleOnPage: false
     });
   });
+
+  test('Check that initial state of ticketListReducer matches root reducer', () => {
+    expect(store.getState().masterTicketList).toEqual(ticketListReducer(undefined, { type: null }));
+  });
+
+  test('Check that initial state of formVisibleReducer matches root reducer', () => {
+    expect(store.getState().formVisibleOnPage).toEqual(formVisibleReducer(undefined, { type: null }));
+  });
 });
